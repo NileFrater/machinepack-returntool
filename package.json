@@ -1,0 +1,33 @@
+{
+  "name": "machinepack-returntool",
+  "version": "1.0.0",
+  "description": "Simple tool to return variables created earlier in a Treeline circuit, at the end of the circuit.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Return Tool",
+    "machines",
+    "machinepack"
+  ],
+  "author": "Nile Frater",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^3.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilefrater/machinepack-returntool.git"
+  },
+  "machinepack": {
+    "friendlyName": "Return Tool",
+    "machineDir": "machines/",
+    "machines": [
+      "return-object",
+      "return-string"
+    ]
+  }
+}
